@@ -1,14 +1,4 @@
-class Shirt:
-    def __init__(self):
-        self.idProduct = ""
-        self.name = ""
-        self.brand = ""
-        self.price = 0
-        self.size = ""
-        self.material = ""
-        self.gender = ""
-        self.color = ""
-        self.sleeve_type = ""
+from Shirt import Shirt
 
 def print_daftar_cloth(shirt_list):
     panjang_id_product = 2
